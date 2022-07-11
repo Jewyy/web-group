@@ -1,0 +1,75 @@
+.navbar{
+    background-color: #524048;
+}
+
+.navbar-dark .navbar-nav .nav-link {/* แก้ css ของ link ตัวเลือกของ navbar*/
+   font-size: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+li{ /*ระยะห่าง ของ link ตัวเลือกของ navbar*/
+    padding-right: 15px;    
+}
+.navbar-dark .navbar-brand {/*แก้ css ของ brand */
+    font-size: 35px;
+    font-weight: 700;
+}
+.navb { /*padding ใน navbar */
+    padding-left: 10%;
+}
+
+.carousel .item {
+    height: 100px;
+    width: 100px;
+  }
+  
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 50px;
+    min-width: 100%;
+  }
+
+section.menu{
+    background-color:#c19c82 ;
+    height: auto;
+    min-height: 100%;
+
+}
+.menu-button{
+    height: 300px;
+    width: 300px;
+}
+.menu-content1{
+    padding: 50px;
+}
+.menu-content2{
+    padding-top: 3%;
+}
+
+
+section.contact{
+    background-color:#ffffff ;
+    height: auto;
+   /* min-height: 100%;*/
+
+}
+.contact-button{
+    background-size: contain;
+   /* min-height: 20px;
+    min-width: 50px;*/
+}
+.contact-img{
+    max-width: 50%;
+}
+.menu-img{
+    max-width: 100%;
+}
+/*.contact-content1{
+    padding: 50px;
+}
+.contact-content2{
+    padding-top: 3%;
+}*/
